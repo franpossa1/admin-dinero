@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: auto;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.App {
+  padding: 50px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.titleName{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.tracker-container {
+  margin: 10px;
+}
+.tuBalance {
+  font-size: 0.8em;
+}
+.tuMonto {
+  font-size: 1.7em;
+}
+.contabilidad-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 3px;
+
+  box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 2px 3px 6px 5px rgba(0, 0, 0, 0.41);
+}
+.contabilidad-ingreso {
+  padding: 10px;
+}
+.contabilidad-egreso {
+  padding: 10px;
+}
+.contabilidad-ingreso > h3,
+.contabilidad-egreso > h3 {
+  font-size: 0.8em;
+
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+.contabilidad-ingreso > p,
+.contabilidad-egreso > p {
+  font-size: 0.8em;
+  text-align: center;
+}
+.historial-container > h4 {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.historial-transaccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+  font-size: 0.8em;
+  padding: 12px 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+
+  box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+}
+.green-border{ border-right: 4px solid green;}
+.red-border{
+  border-right: 4px solid red;
+}
+.transaccion-container {
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaccion-container > h3 {
+  margin-bottom: 5px;
+}
+.transaccion-motivo-text {
+  margin: 5px 0px;
+  font-weight: 700;
+}
+
+.transaccion-motivo-input::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.transaccion-btn {
+  border: none;
+  margin: 7px 0px;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  padding: 3px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  border: none;
+  box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+}
+
+input[type="submit"]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: rgb(68, 68, 228);
+  color: rgba(245, 245, 245, 0.884);
+cursor: pointer;
+  border: none;
+  box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 2px 3px 6px 2px rgba(0, 0, 0, 0.41);
+}
