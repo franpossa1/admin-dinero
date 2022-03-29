@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/admin-dinero/static/css/main.4cbfa2cb.css",
+    "main.js": "/admin-dinero/static/js/main.1ea26173.js",
+    "index.html": "/admin-dinero/index.html",
+    "main.4cbfa2cb.css.map": "/admin-dinero/static/css/main.4cbfa2cb.css.map",
+    "main.1ea26173.js.map": "/admin-dinero/static/js/main.1ea26173.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cbfa2cb.css",
+    "static/js/main.1ea26173.js"
+  ]
+}
